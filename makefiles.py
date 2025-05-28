@@ -1,8 +1,9 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/env python3
 import os
 
+directory = 'env'
 for i in range(1,6):
-    filename = f"file{i}randomwords.txt"
+    filename = f"{directory}/file{i}randomwords.txt"
     with open(filename, 'a'):
         pass
 
